@@ -1,0 +1,74 @@
+
+body{
+    background: #FFF5F5;
+}
+header{
+    height:700px;
+    width:100%;
+    display: flex;
+    background: url(images/img2.jpg);
+    background-size: cover;
+    justify-content: start;
+    align-items: center;
+    color:white;
+}
+header div{
+    height: inherit;
+    width:inherit;
+    background: rgba(0, 0, 0, 0.80);
+   
+}
+header div h1{
+    font-size:  4rem !important;
+    position: relative;
+}
+header div h1::after{
+    content: '';
+    width:70%;
+    height: 0px;
+    border : solid purple 3px;
+    position:absolute;
+    top:100px;
+    left:0px;
+}
+aside img{
+    width: 48%;
+}
+aside .aside{
+    width:40%;
+}
+main{
+    background: #ffff;
+}
+main .box{
+    word-break: break-word;
+}
+.b2{
+    background: #f2f7fa;
+}
+button a{
+    font-size: 16px;
+}
+button a:hover{
+    text-decoration: none;
+}
+.link ul li a{
+    color : #85888d;
+    font-size: 16px;
+}
+@media screen and (max-width:768px){
+aside img{
+    margin: 0 auto;
+    width: 100%;
+}
+    aside .aside{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .foot{
+        height: 400px;
+    }
+}
+@media screen and (max-width:576px){
+   
+}

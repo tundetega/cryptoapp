@@ -1,0 +1,75 @@
+body{
+    background: #ffff;
+}
+header{
+    background: url(images/Women-in-ethical-hacking-Why-its-important-to-encourage-more-women-into-cybersecurity-careers-and-how-to-make-it-happen-780x520-1\ \(1\).jpg);
+    height: 350px;
+    background-size: cover;
+    background-position-y: center;
+}
+ul li{
+    color: #1a202c;
+    transition: none;
+}
+ul li i{
+   margin-right: 20px;
+}
+div.asid{
+    width:90%;
+}
+div.sec{
+    background: url(images/img2.jpg);
+    height: 150px;
+    background-size: cover;
+    display: flex;
+}
+div.sec a:hover{
+    color:blue;
+    text-decoration: none;
+    transition: all 2s ease;
+}
+div.faqs{
+    background: #F7FAFC;
+    width:60%;
+    height: 300px;
+    overflow: auto;
+}
+div.faqs .wrapper{
+    height: 100%;
+}
+div.faqs h5{
+    cursor: pointer;
+    padding: 10px 7px;
+    margin: 0 !important;
+}
+div.faqs h5:hover{
+    background:#90CDF4;
+    border-radius: 2px;
+}
+div.faqs p{
+    margin: 0 !important;
+}
+.appear{
+    display:none;
+}
+
+@media screen and (max-width: 768px){
+    div.asid{
+        display: block;
+        margin-right: 0px;
+    }
+    .aside-one{
+        width:90%;
+        margin: 0 auto;
+    }
+    aside img{
+        display: block;
+        width:140px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 576px){
+    div.faqs{
+        width:100%;
+    }
+}
