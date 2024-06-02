@@ -131,14 +131,12 @@ form.addEventListener("submit",function(e){
 
 const article = document.querySelector("article");
 
-console.log(foot)
 const observer = new IntersectionObserver(entries =>{
  entries[0].target.classList.toggle('show',entries[0].isIntersecting)
  if(entries[0].isIntersecting) {observer.unobserve(entries[0].target)
-    console.log(entries[0].target)
  }
 },{
-    threshold: 0.5,
+    threshold: 0.2,
 })
 
 observer.observe(article);
